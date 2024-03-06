@@ -81,3 +81,22 @@ body {
     background-color: rgba(163, 43, 43, 0.521);
 }
 
+@media screen and (max-width: 500px) {
+    .time, .btnz {
+        width: 100%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        backdrop-filter: blur(8px);
+    }
+    .int {
+        font-size: 8.5vw;
+        box-sizing: border-box;
+
+    }
+    .btn {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
